@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 var request = require('request');
+require('dotenv').load();
 
 app.set("view engine", "ejs");
 
